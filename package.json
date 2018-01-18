@@ -1,0 +1,21 @@
+{
+  "name": "iredmail-alias-api",
+  "version": "1.0.0",
+  "main": "src/api.js",
+  "scripts": {
+    "dev": "nodemon src/api.js",
+    "start": "node src/api.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "pg": "^6.4.2",
+    "schema-inspector": "^1.6.8",
+    "sequelize": "^4.31.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
